@@ -81,9 +81,8 @@ a:hover {
   width: 600px;
   height: 300px;
   margin: 0px auto;
-  margin-top: 20px;
+  margin-top: 0px;
   align-items: center;
-  border-radius: 20px;
   background-image: url('./bush.png');
   background-size: contain;
   background-repeat: no-repeat;
