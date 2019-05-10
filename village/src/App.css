@@ -76,3 +76,107 @@ a:hover {
 .Peek:hover {
   text-shadow: -1px 1px 3px black;
 }
+
+.Smurf {
+  width: 600px;
+  height: 300px;
+  margin: 0px auto;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url('./bush.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+ padding-top: 80px;
+}
+
+h3 {
+  margin-top: -10px;
+  color: blue;
+  font-weight: 900;
+  font-size: 28px;
+  text-shadow: -1px 2px 3px black;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: 900;
+  text-shadow: -1px 1px 2px blue;
+}
+
+p {
+  font-weight: 900;
+  text-shadow: -1px 1px 3px blue;
+}
+
+.delete {
+  padding: 0px 3px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 0px -20px 265px ;
+  background: black;
+  color: blue;
+  text-shadow: none;
+  font-size: 12px;
+  box-shadow: 0px 0px 4px 1px black;
+}
+
+.delete:hover {
+  background: red;
+  color: black;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.smurf-form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.SmurfForm{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 800px;
+  margin: 0 auto;
+  height: 800px;
+  background-image: url('./bush.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px solid blue;
+  padding: 5px;
+  background: lightgrey;
+  color: black;
+ margin: 0 auto;
+ margin-top: 10px;
+ box-shadow: 0px 0px 5px 2px black;
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid blue;
+  padding: 10px;
+  background: yellow;
+  font-weight: 900;
+  font-size: 18px;
+  color: black;
+  text-shadow: -1px 1px 3px blue;
+  margin: 10px;
+  box-shadow: 0px 0px 7px 2px black;
+}
+
+button:hover {
+  color: blue;
+  cursor: pointer;
+  text-shadow: -1px 1px 3px black;
+}
